@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CamaraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivCamara"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            android:layout_below="@+id/ivFotoTomada"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="145dp"
+            android:src="@drawable/ic_menu_camera" />
+
+        <ImageView
+            android:id="@+id/ivFotoTomada"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            tools:src="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btGuardar"
+            android:layout_width="222dp"
+            android:layout_height="95dp"
+            android:layout_below="@+id/ivCamara"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="101dp"
+            android:text="@string/guardarImagen" />
+    </RelativeLayout>
+</FrameLayout>

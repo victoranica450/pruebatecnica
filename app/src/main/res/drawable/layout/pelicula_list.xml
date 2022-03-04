@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp">
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="71dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="185dp"
+            android:layout_toEndOf="@+id/ivPoster"
+            android:text="@string/Nombre"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/tvIdiomaOriginal"
+            android:layout_width="71dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tvNombre"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="185dp"
+            android:layout_toEndOf="@+id/ivPoster"
+            android:text="@string/Idioma"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/tvPopularidad"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tvIdiomaOriginal"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="19dp"
+            android:layout_toEndOf="@+id/ivPoster"
+            android:text="@string/Popularidad"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/tvFechaDeLanzamiento"
+            android:layout_width="77dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tvPopularidad"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/ivPoster"
+            android:text="@string/FechaDeSalida"
+            app:autoSizePresetSizes="@array/autosize_text_sizes"
+            app:autoSizeTextType="uniform" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

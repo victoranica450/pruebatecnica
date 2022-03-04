@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Prueba_Tecnica</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Nombre">Nombre: </string>
+    <string name="Idioma">Idioma original: v</string>
+    <string name="Popularidad">Popularidad: </string>
+    <string name="FechaDeSalida">Fecha de lanzamiento: </string>
+    <string name="promedioDeVotaciones">Promedio de votaciones: </string>
+    <string name="conteoDeVotos">Popularidad: </string>
+    <string name="Valoracion">Valoracion: </string>
+
+    <string name="msjCamara">Debe dar permisos para cámara y acceder a su almacenamiento</string>
+    <string name="msjUbicacion">Debe dar permisos de ubicación</string>
+    <string name="msg">Por favor habilita el permiso</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardarImagen">Guardar Imagen</string>
+    <string name="SeleccionaUnaAplicación">Selecciona una aplicación </string>
+    <string name="fotoGuardada"> Su foto se ha guardado con exito </string>
+
+
+
+    <string name="gpsdesactivado">GPS no activado</string>
+    <string name="gpsinfo">Esta Aplicación necesita el GPS para su correcto funcionamiento.¿Deseas abrir el Menu de Ajustes?</string>
+    <string name="gpsajustes">Ajustes</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rlHome"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <ImageView
+            android:id="@+id/ivCamara"
+            android:layout_width="121dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="0dp"
+            android:onClick="cambiarVista"
+            app:srcCompat="@drawable/ic_menu_camera" />
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="137dp"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@+id/ivCamara"
+            android:onClick="cambiarVista"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/ivPin"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toEndOf="@+id/ivHome"
+            android:onClick="cambiarVista"
+            app:srcCompat="@drawable/ic_baseline_pin_drop_24" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="671dp"
+        android:layout_below="@+id/rlHome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp">
+
+    </FrameLayout>
+</RelativeLayout>
